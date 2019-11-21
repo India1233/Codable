@@ -14,6 +14,7 @@
 		3C8DEE7A23865C6900338FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8DEE7823865C6900338FF5 /* LaunchScreen.storyboard */; };
 		3C8DEE8523865C6900338FF5 /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8DEE8423865C6900338FF5 /* CodableTests.swift */; };
 		3C8DEE9023865C6900338FF5 /* CodableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8DEE8F23865C6900338FF5 /* CodableUITests.swift */; };
+		3C8DEE9E23865C7C00338FF5 /* JsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8DEE9D23865C7C00338FF5 /* JsonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C8DEE8B23865C6900338FF5 /* CodableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8DEE8F23865C6900338FF5 /* CodableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUITests.swift; sourceTree = "<group>"; };
 		3C8DEE9123865C6900338FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C8DEE9D23865C7C00338FF5 /* JsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3C8DEE6F23865C6800338FF5 /* AppDelegate.swift */,
 				3C8DEE7123865C6800338FF5 /* ViewController.swift */,
+				3C8DEE9D23865C7C00338FF5 /* JsonModel.swift */,
 				3C8DEE7323865C6800338FF5 /* Main.storyboard */,
 				3C8DEE7623865C6900338FF5 /* Assets.xcassets */,
 				3C8DEE7823865C6900338FF5 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C8DEE9E23865C7C00338FF5 /* JsonModel.swift in Sources */,
 				3C8DEE7223865C6800338FF5 /* ViewController.swift in Sources */,
 				3C8DEE7023865C6800338FF5 /* AppDelegate.swift in Sources */,
 			);
@@ -433,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = Codable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +456,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZB6PL47P;
 				INFOPLIST_FILE = Codable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
